@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<h1>Dynamically Add/Remove Table Row with JS</h1>
+<p id="invalidMsg"></p>
+<div class="container">
+  <table id="mylist">
+    <colgroup>
+      <col style="width:40%;">
+      <col style="width:40%;">
+      <col style="width:20%;">
+    </colgroup>
+  <tr style="border:none !important;">
+    <td><input type="text" placeholder="Input First Name ..." id="firstname" autocomplete="off"></td>
+    <td><input type="text" placeholder="Input Last Name ..." id="lastname" autocomplete="off"></td>
+    <td><button onclick="return addRow();">Add</button></td>
+  </tr>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th style="border:none;"></th>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
